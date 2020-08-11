@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yxd.sidesliplinearlayout.SideSlipLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingBottom="1dp"
+    android:id="@+id/ssll"
+    android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="A"
+            android:textColor="#fff"
+            android:textSize="45sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:visibility="visible"
+            android:background="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/bt_delete"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:visibility="visible"/>
+
+</com.yxd.sidesliplinearlayout.SideSlipLinearLayout>
