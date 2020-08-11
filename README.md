@@ -44,7 +44,7 @@
 
 ## 2.功能参数与含义
 配置参数|参数含义|描述
--|-|-|-
+-|-|-
 open|	打开item|	无
 close|	关闭item|	无
 setOnSideSlipStateChangedListening|	设置状态监听|	展开，关闭，滑动的百分比，点击事件
